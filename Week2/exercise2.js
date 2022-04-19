@@ -32,13 +32,13 @@ const seedDatabase = async () => {
     INSERT INTO 
             authors(author_no,author_name,university,date_of_birth,h_index,gender,mentor)
     VALUES
-        (101, 'Asiye', 'University of Istanbul', '1980-04-07', 24, 'f', 101),
-        (102, 'Onur', 'University of Ankara', '1977-10-05', 30, 'm', 102),
-        (103, 'Ahmet', 'University of Istanbul', '1990-12-22', 22, 'm', 103),
-        (104, 'Kudret', 'University of Istanbul', '1969-10-10', 40, 'f', 104),
-        (105, 'Merve', 'University of Ankara', '1993-02-12', 32, 'f', 105),
-        (106, 'Ertugrul', 'Leiden University', '1991-05-30', 37, 'm', 106),
-        (107, 'Huseyin', 'Leiden University', '1964-09-18', 60, 'm', 107),
+        (101, 'Asiye', 'University of Istanbul', '1980-04-07', 24, 'f', 110),
+        (102, 'Onur', 'University of Ankara', '1977-10-05', 30, 'm', 101),
+        (103, 'Ahmet', 'University of Istanbul', '1990-12-22', 22, 'm', 101),
+        (104, 'Kudret', 'University of Istanbul', '1969-10-10', 40, 'f', 101),
+        (105, 'Merve', 'University of Ankara', '1993-02-12', 32, 'f', 102),
+        (106, 'Ertugrul', 'Leiden University', '1991-05-30', 37, 'm', 102),
+        (107, 'Huseyin', 'Leiden University', '1964-09-18', 60, 'm', 104),
         (108, 'Sevgi', 'MIT', '1994-04-15', 29, 'f', 108),
         (109, 'Aykut', 'MIT', '1978-11-24', 49, 'm', 110),
         (110, 'Andrea', 'Milano University', '1989-01-29', 33, 'f', 111),

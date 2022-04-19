@@ -24,6 +24,7 @@ const TAKE_AUTHORS_MENTORS = `
         author_no,author_name,mentor
     FROM
         authors;
+    AS LEFT JOIN authors AS A.mentor = M.author_no
 `;
 
 const TAKE_AUTHORS_AND_PAPERS = `
